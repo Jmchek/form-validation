@@ -1,0 +1,106 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    height: 80vh;
+    width: 60vw;
+}
+
+h1 {
+    align-self: end;
+}
+
+.inputForm {
+    max-width: 305px;
+    align-self: start;
+}
+
+/* Validation Styling */
+
+input {
+    appearance: none;
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+
+    font-family: inherit;
+    font-size: 90%;
+
+    box-sizing: border-box;
+}
+
+input.invalid {
+    border-color: #900;
+    background-color: #fdd;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+.emailError {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.emailError.active {
+    padding: 0.3em;
+}
+
+.countryError {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.countryError.active {
+    padding: 0.3em;
+}
+
+.zipError {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.zipError.active {
+    padding: 0.3em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.passwordError {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.passwordError.active {
+    padding: 0.3em;
+}
